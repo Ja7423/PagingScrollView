@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8FD1D696785793433DF3077C /* Pods_PagingScrollView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A547BB3ACF0548B7AAE018 /* Pods_PagingScrollView_Tests.framework */; };
+		A94C103F22C5B14C0026B068 /* CustomPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A94C103E22C5B14C0026B068 /* CustomPageView.m */; };
 		FBEBFDC59B318FAEFE55FC9A /* Pods_PagingScrollView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832A4C17125F68A6B9AD031C /* Pods_PagingScrollView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,11 +63,13 @@
 		7F35F954A205905C3E3C98C5 /* Pods-PagingScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagingScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-PagingScrollView_Tests/Pods-PagingScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		832A4C17125F68A6B9AD031C /* Pods_PagingScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagingScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9998A475163B11B017696E8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9998A475163B11B017696E8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A94C103D22C5B14C0026B068 /* CustomPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPageView.h; sourceTree = "<group>"; };
+		A94C103E22C5B14C0026B068 /* CustomPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPageView.m; sourceTree = "<group>"; };
 		B2A547BB3ACF0548B7AAE018 /* Pods_PagingScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagingScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D53AC1747D8619D030C87A5A /* PagingScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PagingScrollView.podspec; path = ../PagingScrollView.podspec; sourceTree = "<group>"; };
+		D53AC1747D8619D030C87A5A /* PagingScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PagingScrollView.podspec; path = ../PagingScrollView.podspec; sourceTree = "<group>"; };
 		D78D75BE3F1C3E5CA9597A0F /* Pods-PagingScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagingScrollView_Example.release.xcconfig"; path = "Target Support Files/Pods-PagingScrollView_Example/Pods-PagingScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F7F0008DBEFBD5BC4E974999 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F7F0008DBEFBD5BC4E974999 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PSVViewController.h */,
 				6003F5A6195388D20070C39A /* PSVViewController.m */,
+				A94C103D22C5B14C0026B068 /* CustomPageView.h */,
+				A94C103E22C5B14C0026B068 /* CustomPageView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +198,6 @@
 				1166F22DA5B98FE6A30AD6D3 /* Pods-PagingScrollView_Tests.debug.xcconfig */,
 				7F35F954A205905C3E3C98C5 /* Pods-PagingScrollView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,10 +329,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PagingScrollView_Example/Pods-PagingScrollView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/PagingScrollView/PagingScrollView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingScrollView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +373,7 @@
 			files = (
 				6003F59E195388D20070C39A /* PSVAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PSVViewController.m in Sources */,
+				A94C103F22C5B14C0026B068 /* CustomPageView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

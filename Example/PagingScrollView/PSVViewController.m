@@ -7,23 +7,54 @@
 //
 
 #import "PSVViewController.h"
+#import "CustomPageView.h"
 
-@interface PSVViewController ()
+#import <PagingScrollView/PageScrollView.h>
+
+@interface PSVViewController () <PageScrollViewDataSource, PageScrollViewDelegate>
+
+
+@property (nonatomic, strong) PageScrollView *pageScrollView;
+
+@property (nonatomic, strong) NSMutableArray *testImages;
 
 @end
 
 @implementation PSVViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.testImages = @[@"0", @"1", @"3"].mutableCopy;
+    
+    
+    self.pageScrollView = [[PageScrollView alloc] initWithConfig:[PageScrollViewConfig new]];
+    self.pageScrollView.frame = CGRectMake(0, 100, self.view.frame.size.width, 150);
+    self.pageScrollView.dataSource = self;
+    self.pageScrollView.delegate = self;
+    [self.view addSubview:self.pageScrollView];
+    
+    self.pageScrollView.dataCount = self.testImages.count;
 }
 
-- (void)didReceiveMemoryWarning
+- (PageView *)pageViewAtIndex:(NSInteger)index
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSLog(@"%s %ld", __func__, (long)index);
+    CustomPageView *pageView = [[CustomPageView alloc] init];
+    [pageView loadImageAtIndex:[self.testImages[index] integerValue]];
+    return pageView;
+}
+
+- (void)didSelectedPageViewAtIndex:(NSInteger)index
+{
+    NSLog(@"%s %ld", __func__, (long)index);
+}
+
+- (IBAction)insert:(UIButton *)sender {
+    
+    [self.testImages insertObject:@"2" atIndex:1];
+    
+    [self.pageScrollView updatePageScrollViewDataCount:self.testImages.count];
 }
 
 @end
