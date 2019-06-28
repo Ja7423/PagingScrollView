@@ -9,7 +9,7 @@
 #import "PSVViewController.h"
 #import "CustomPageView.h"
 
-#import <PagingScrollView/PageScrollView.h>
+#import <PagingScrollView/PagingScrollView.h>
 
 @interface PSVViewController () <PageScrollViewDataSource, PageScrollViewDelegate>
 

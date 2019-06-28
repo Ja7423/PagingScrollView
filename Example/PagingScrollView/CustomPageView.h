@@ -6,7 +6,7 @@
 //  Copyright © 2019 家瑋. All rights reserved.
 //
 
-#import <PagingScrollView/PageView.h>
+#import <PagingScrollView/PagingScrollView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

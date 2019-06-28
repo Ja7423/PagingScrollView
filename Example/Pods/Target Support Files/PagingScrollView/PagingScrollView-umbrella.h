@@ -13,6 +13,7 @@
 #import "PageScrollView.h"
 #import "PageScrollViewConfig.h"
 #import "PageView.h"
+#import "PagingScrollView.h"
 
 FOUNDATION_EXPORT double PagingScrollViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char PagingScrollViewVersionString[];

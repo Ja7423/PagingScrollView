@@ -12,46 +12,47 @@
 		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
 		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
 		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CC39F38A3D91BDFB95511A4EEC9745E /* PageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF5630DFF7E6B44FBB629CEC0310E32 /* PageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
+		23010A1754D2BE85204BE2EF6F7B33DC /* PageScrollViewConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6200A5E1B8B6726D620BB797B86D3F /* PageScrollViewConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23DFF81E790541D11F644BAC4D570085 /* Pods-PagingScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F616B63A87A36845C03B8A006C5D634F /* Pods-PagingScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		270F7264E4DA42953459596515CDFDF0 /* PagingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D9EEC22DB6CCB3AA53B5DCD6C06593 /* PagingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
 		309529895D6497D8DC301677898BA425 /* Pods-PagingScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CACD1AB47F115FDF6F145263D7C18D29 /* Pods-PagingScrollView_Tests-dummy.m */; };
+		31B5FE77ECDAD795B4B9E41CC7A48720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
 		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D4795D074427A4B1DCC6F9EDA268A00 /* PageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5188BFE068C04627FDCEBAA3C6F60690 /* PageScrollView.m */; };
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F35E2851CBE679F234B89C2B6C3CC43 /* PageScrollViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D4413D0BFE9AD20FB49B52A2B2BD0296 /* PageScrollViewConfig.m */; };
-		3FA1CD5FF7CABC23F24036273D59719A /* PageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1B5E08156D3D7F6B835A88D7EC4C2B /* PageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4543FB81DB26CA8FBEA9E5682FE5C507 /* PageScrollViewConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6A3DB4FA78A77BDA32F5337AD6403D /* PageScrollViewConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		430FFB2B5F0A71896ED7F83C55CEE97E /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
 		4B05DC4979790045269283D682753BC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
 		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67F4A69C7F67430A5618C5C6759DEB2F /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9819787CAB47C5E1C00B6821AA90FF2 /* PageView.m */; };
+		539966EDCD136C0510E98E8FDAC1593A /* PagingScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CE70BFF555582A7C8650988A589164 /* PagingScrollView-dummy.m */; };
 		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74EC72A0861EC79FA2FC4504D6DFA23D /* Pods-PagingScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A44C390BC2526FE05A64EB8B17A43F /* Pods-PagingScrollView_Example-dummy.m */; };
 		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
-		7A40B2AFA10455A93C980B8A4670FFC2 /* PagingScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD2C380C9D362037742C0149844BAE0 /* PagingScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
 		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
-		88ADF2E2BE720968AA4D5B95BA4A3CE7 /* PagingScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1DD7D7BBB3E4B8764B35923CBE1060 /* PagingScrollView-dummy.m */; };
 		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9029D002F87396EAAAFBCF4E79316CE7 /* PagingScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 105683A6414CA7DBEAAD589664657890 /* PagingScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964A9056BB0ACF0C82ECE88841CDDA8D /* PageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E995B17FFEE0757B9942A252C2BB54C /* PageScrollView.m */; };
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A26C2A34B48736E42858C366EBD4405E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
 		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
 		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
 		B8B929B6F50E136E8492206ED82AEAC6 /* Pods-PagingScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8775CEBB73AFFCB1B7B8BE14CE17D41E /* Pods-PagingScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD7D87AE346605C3F65A14BDECA3B90A /* PageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5824AF1033FBF2C8EC5E146C425DA984 /* PageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */; };
-		D8404049BE30D995FACB3CDDC98D3CF6 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
+		E0C88B98345C4522ABFEF56C83B733C3 /* PageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E8694284B1B5D1916EECD224AE1073 /* PageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
 		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
 		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAF05E82B7543FA6CA2B36236A81365F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		FAF240F38308C2CACFBD786766A12FFF /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2AF2CE14857E2664286526B1BEF76A /* PageView.m */; };
 		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD474E2CA4129AD8742266C821D21CE /* PageScrollViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B48B568A25AB2F5C9106D97123E3D29 /* PageScrollViewConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,19 +70,19 @@
 			remoteGlobalIDString = 3D07A4EC4E4A391E421A1CD4097EDA53;
 			remoteInfo = PagingScrollView;
 		};
+		745C5FEAC884592BFF91FF853148F0FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
 		B8D1DB00E3ED6D93AF2D93BF5469E3AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 56D94DE9530EDCA14BDBD3A238B4D56A;
 			remoteInfo = "Pods-PagingScrollView_Example";
-		};
-		DD59F9C699BFBD3D31A5A6A67C509DD6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -91,9 +92,11 @@
 		033B68A5533F863CB589F9B6A503FC87 /* PagingScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PagingScrollView.framework; path = PagingScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		040A3BA936D569089262D6C41DA1D275 /* Pods-PagingScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PagingScrollView_Tests.modulemap"; sourceTree = "<group>"; };
 		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0B48B568A25AB2F5C9106D97123E3D29 /* PageScrollViewConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PageScrollViewConfig.m; sourceTree = "<group>"; };
 		0E2C083FC8BAF58FEA42F479EE6D16D1 /* Pods_PagingScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PagingScrollView_Tests.framework; path = "Pods-PagingScrollView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		0F620C6A28A5180DC59C8799AD4AC202 /* Pods-PagingScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PagingScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		105683A6414CA7DBEAAD589664657890 /* PagingScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingScrollView-umbrella.h"; sourceTree = "<group>"; };
 		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		16F72145D786526C5DE13FFF51736D29 /* Pods-PagingScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagingScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,21 +104,19 @@
 		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D9EEC22DB6CCB3AA53B5DCD6C06593 /* PagingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PagingScrollView.h; path = PagingScrollView/Classes/PagingScrollView.h; sourceTree = "<group>"; };
 		28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2D1CFD70D77C83A2C2C7939AD27E9520 /* PagingScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingScrollView.xcconfig; sourceTree = "<group>"; };
 		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		47CBBC6806921BA8CD083A416EE063D3 /* Pods-PagingScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagingScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4BA5146ED29D6C47DA2680E45FFDA219 /* Pods-PagingScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagingScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		508C6429B3382C70A0B35DBC5052B3ED /* Pods-PagingScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagingScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5188BFE068C04627FDCEBAA3C6F60690 /* PageScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PageScrollView.m; path = PagingScrollView/Classes/PageView/PageScrollView.m; sourceTree = "<group>"; };
+		56C645049DF94A69B1DBF260137E23D7 /* PagingScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingScrollView.xcconfig; sourceTree = "<group>"; };
+		5824AF1033FBF2C8EC5E146C425DA984 /* PageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
 		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		6588DC21C676930F0FBD74C9B2470892 /* PagingScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PagingScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6A7038B6B56BFA9965E3337318A2A5A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D2C69A36AFF34ADA5232F9578AF95EA /* PagingScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PagingScrollView-Info.plist"; sourceTree = "<group>"; };
 		78A44C390BC2526FE05A64EB8B17A43F /* Pods-PagingScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PagingScrollView_Example-dummy.m"; sourceTree = "<group>"; };
 		847372D4C144476425F92F5153EBE72C /* Pods-PagingScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PagingScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
@@ -123,39 +124,40 @@
 		8730ACB6B474E60E4BD66844B346ACB2 /* Pods-PagingScrollView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagingScrollView_Example-Info.plist"; sourceTree = "<group>"; };
 		8775CEBB73AFFCB1B7B8BE14CE17D41E /* Pods-PagingScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagingScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
 		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		8C1B5E08156D3D7F6B835A88D7EC4C2B /* PageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PageView.h; path = PagingScrollView/Classes/PageView/PageView.h; sourceTree = "<group>"; };
+		8A49CE29EE3DB2F92515B705A28E3620 /* PagingScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PagingScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		8DD9483977DFB6D22ACFA2AF2A879ECB /* Pods-PagingScrollView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagingScrollView_Tests-Info.plist"; sourceTree = "<group>"; };
 		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E995B17FFEE0757B9942A252C2BB54C /* PageScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PageScrollView.m; sourceTree = "<group>"; };
 		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		A31D056108F85F4EAE52EB6DC1F58456 /* Pods-PagingScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PagingScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A45AB0C3CFA249182C8BBBD58F9F90C2 /* PagingScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingScrollView-prefix.pch"; sourceTree = "<group>"; };
+		A444A5B22B9AC2659F09DB0A9A5B4014 /* PagingScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PagingScrollView.modulemap; sourceTree = "<group>"; };
+		A4CE70BFF555582A7C8650988A589164 /* PagingScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PagingScrollView-dummy.m"; sourceTree = "<group>"; };
+		A9B53D10621918DDAD17D0D34373295F /* PagingScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingScrollView-prefix.pch"; sourceTree = "<group>"; };
 		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		B1CC6B0958B9301A477771B25F6F8276 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		B715599D073E0BEBFB06CD64E5672A77 /* PagingScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PagingScrollView.modulemap; sourceTree = "<group>"; };
-		B9819787CAB47C5E1C00B6821AA90FF2 /* PageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PageView.m; path = PagingScrollView/Classes/PageView/PageView.m; sourceTree = "<group>"; };
-		BDF5630DFF7E6B44FBB629CEC0310E32 /* PageScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PageScrollView.h; path = PagingScrollView/Classes/PageView/PageScrollView.h; sourceTree = "<group>"; };
 		C59F4A934CC2EC02FAE13232216DFF16 /* Pods_PagingScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PagingScrollView_Example.framework; path = "Pods-PagingScrollView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		CACD1AB47F115FDF6F145263D7C18D29 /* Pods-PagingScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PagingScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
-		CE1DD7D7BBB3E4B8764B35923CBE1060 /* PagingScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PagingScrollView-dummy.m"; sourceTree = "<group>"; };
+		CB6200A5E1B8B6726D620BB797B86D3F /* PageScrollViewConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PageScrollViewConfig.h; sourceTree = "<group>"; };
 		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		D4413D0BFE9AD20FB49B52A2B2BD0296 /* PageScrollViewConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PageScrollViewConfig.m; path = PagingScrollView/Classes/PageView/PageScrollViewConfig.m; sourceTree = "<group>"; };
+		D26DC78790543BF46B8CB639E060E9B2 /* PagingScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PagingScrollView-Info.plist"; sourceTree = "<group>"; };
 		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DFBE72A690F78C4101C5EC49D7B225EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		EAD2C380C9D362037742C0149844BAE0 /* PagingScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingScrollView-umbrella.h"; sourceTree = "<group>"; };
+		E9E8694284B1B5D1916EECD224AE1073 /* PageScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PageScrollView.h; sourceTree = "<group>"; };
+		EC2AF2CE14857E2664286526B1BEF76A /* PageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
 		EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		F2B7B4F01AE9E30D6DAC1778226E20B9 /* Pods-PagingScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PagingScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F3FAC20088612EA754A970FFF1D379E0 /* Pods-PagingScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PagingScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F616B63A87A36845C03B8A006C5D634F /* Pods-PagingScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PagingScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FB6A3DB4FA78A77BDA32F5337AD6403D /* PageScrollViewConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PageScrollViewConfig.h; path = PagingScrollView/Classes/PageView/PageScrollViewConfig.h; sourceTree = "<group>"; };
+		FE5E567622CD17A6769B07BF308DBB48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,20 +179,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7122412D40096EA7626A50CC643FFE70 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A26C2A34B48736E42858C366EBD4405E /* Foundation.framework in Frameworks */,
-				D8404049BE30D995FACB3CDDC98D3CF6 /* Masonry.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9264FF1A09561778F07871B5AB7FC716 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EAF05E82B7543FA6CA2B36236A81365F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1842527AF0ACE1D20A888390B4B18BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B5FE77ECDAD795B4B9E41CC7A48720 /* Foundation.framework in Frameworks */,
+				430FFB2B5F0A71896ED7F83C55CEE97E /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,16 +215,6 @@
 			path = "Target Support Files/Pods-PagingScrollView_Tests";
 			sourceTree = "<group>";
 		};
-		0E7D045D5753E6BA1DFA4EEA853EFB1A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6A7038B6B56BFA9965E3337318A2A5A9 /* LICENSE */,
-				6588DC21C676930F0FBD74C9B2470892 /* PagingScrollView.podspec */,
-				B1CC6B0958B9301A477771B25F6F8276 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		12D84A56C17F81B2B6D0B614B2EB7B81 /* Pods-PagingScrollView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,36 +232,6 @@
 			path = "Target Support Files/Pods-PagingScrollView_Example";
 			sourceTree = "<group>";
 		};
-		296365ABAD9B43B933533CC6AB3E9EE7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B715599D073E0BEBFB06CD64E5672A77 /* PagingScrollView.modulemap */,
-				2D1CFD70D77C83A2C2C7939AD27E9520 /* PagingScrollView.xcconfig */,
-				CE1DD7D7BBB3E4B8764B35923CBE1060 /* PagingScrollView-dummy.m */,
-				6D2C69A36AFF34ADA5232F9578AF95EA /* PagingScrollView-Info.plist */,
-				A45AB0C3CFA249182C8BBBD58F9F90C2 /* PagingScrollView-prefix.pch */,
-				EAD2C380C9D362037742C0149844BAE0 /* PagingScrollView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PagingScrollView";
-			sourceTree = "<group>";
-		};
-		3707ACF8E05B8052C84F65CE4E533A92 /* PagingScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				BDF5630DFF7E6B44FBB629CEC0310E32 /* PageScrollView.h */,
-				5188BFE068C04627FDCEBAA3C6F60690 /* PageScrollView.m */,
-				FB6A3DB4FA78A77BDA32F5337AD6403D /* PageScrollViewConfig.h */,
-				D4413D0BFE9AD20FB49B52A2B2BD0296 /* PageScrollViewConfig.m */,
-				8C1B5E08156D3D7F6B835A88D7EC4C2B /* PageView.h */,
-				B9819787CAB47C5E1C00B6821AA90FF2 /* PageView.m */,
-				0E7D045D5753E6BA1DFA4EEA853EFB1A /* Pod */,
-				296365ABAD9B43B933533CC6AB3E9EE7 /* Support Files */,
-			);
-			name = PagingScrollView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		434D19C564D46AE4CAF3E03CB691CB90 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +239,28 @@
 				0C1B64F353679AE3564004C2BF2891DE /* Pods-PagingScrollView_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55E980D879F33453DE98F4E93DCEAE74 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				E9E8694284B1B5D1916EECD224AE1073 /* PageScrollView.h */,
+				9E995B17FFEE0757B9942A252C2BB54C /* PageScrollView.m */,
+				CB6200A5E1B8B6726D620BB797B86D3F /* PageScrollViewConfig.h */,
+				0B48B568A25AB2F5C9106D97123E3D29 /* PageScrollViewConfig.m */,
+				5824AF1033FBF2C8EC5E146C425DA984 /* PageView.h */,
+				EC2AF2CE14857E2664286526B1BEF76A /* PageView.m */,
+			);
+			name = PageView;
+			path = PagingScrollView/Classes/PageView;
+			sourceTree = "<group>";
+		};
+		597AAB3C72EFD856BAF52362F02E43AF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A146E21592C108B7BD603F99FD9120CA /* PagingScrollView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		603F15474D8EEA4216FF7187D0CEF566 /* Products */ = {
@@ -324,20 +308,38 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		66B1643C2C255E84C21AA8F07FFF3C7D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3707ACF8E05B8052C84F65CE4E533A92 /* PagingScrollView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				641727D7EBF7D099C436C5885417E360 /* Masonry */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A146E21592C108B7BD603F99FD9120CA /* PagingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				23D9EEC22DB6CCB3AA53B5DCD6C06593 /* PagingScrollView.h */,
+				55E980D879F33453DE98F4E93DCEAE74 /* PageView */,
+				CEF307FFBEB851EF20751AD0601EE684 /* Pod */,
+				A57977FC651E0DB0F78D7565E7CCBF10 /* Support Files */,
+			);
+			name = PagingScrollView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A57977FC651E0DB0F78D7565E7CCBF10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A444A5B22B9AC2659F09DB0A9A5B4014 /* PagingScrollView.modulemap */,
+				56C645049DF94A69B1DBF260137E23D7 /* PagingScrollView.xcconfig */,
+				A4CE70BFF555582A7C8650988A589164 /* PagingScrollView-dummy.m */,
+				D26DC78790543BF46B8CB639E060E9B2 /* PagingScrollView-Info.plist */,
+				A9B53D10621918DDAD17D0D34373295F /* PagingScrollView-prefix.pch */,
+				105683A6414CA7DBEAAD589664657890 /* PagingScrollView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PagingScrollView";
 			sourceTree = "<group>";
 		};
 		B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */ = {
@@ -363,11 +365,21 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
+		CEF307FFBEB851EF20751AD0601EE684 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FE5E567622CD17A6769B07BF308DBB48 /* LICENSE */,
+				8A49CE29EE3DB2F92515B705A28E3620 /* PagingScrollView.podspec */,
+				DFBE72A690F78C4101C5EC49D7B225EF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				66B1643C2C255E84C21AA8F07FFF3C7D /* Development Pods */,
+				597AAB3C72EFD856BAF52362F02E43AF /* Development Pods */,
 				DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
 				603F15474D8EEA4216FF7187D0CEF566 /* Products */,
@@ -387,6 +399,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4F091F92C524AF7833FA50BFEA75AD92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C88B98345C4522ABFEF56C83B733C3 /* PageScrollView.h in Headers */,
+				23010A1754D2BE85204BE2EF6F7B33DC /* PageScrollViewConfig.h in Headers */,
+				BD7D87AE346605C3F65A14BDECA3B90A /* PageView.h in Headers */,
+				9029D002F87396EAAAFBCF4E79316CE7 /* PagingScrollView-umbrella.h in Headers */,
+				270F7264E4DA42953459596515CDFDF0 /* PagingScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		53CAFE806BA3F9386D7C18A537D10E29 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,17 +439,6 @@
 				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
 				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
 				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBC9BE30D009AFC52750386D73A32AC3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0CC39F38A3D91BDFB95511A4EEC9745E /* PageScrollView.h in Headers */,
-				4543FB81DB26CA8FBEA9E5682FE5C507 /* PageScrollViewConfig.h in Headers */,
-				3FA1CD5FF7CABC23F24036273D59719A /* PageView.h in Headers */,
-				7A40B2AFA10455A93C980B8A4670FFC2 /* PagingScrollView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,17 +474,17 @@
 		};
 		3D07A4EC4E4A391E421A1CD4097EDA53 /* PagingScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58725870D1959A65E48D3E7CD114C21B /* Build configuration list for PBXNativeTarget "PagingScrollView" */;
+			buildConfigurationList = B19FEA68EB9B030B33A8C2FF60C79749 /* Build configuration list for PBXNativeTarget "PagingScrollView" */;
 			buildPhases = (
-				CBC9BE30D009AFC52750386D73A32AC3 /* Headers */,
-				AC323DDA645BAEE02806198AE156D17F /* Sources */,
-				7122412D40096EA7626A50CC643FFE70 /* Frameworks */,
-				433EFAD19B79F5D1C49960E4F3BAAA94 /* Resources */,
+				4F091F92C524AF7833FA50BFEA75AD92 /* Headers */,
+				E5027CDE07171405462C54C2113C13E1 /* Sources */,
+				C1842527AF0ACE1D20A888390B4B18BD /* Frameworks */,
+				25664743E2632C50EA513B6960520588 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BE4352F86A6CDDC93A073E75CC305738 /* PBXTargetDependency */,
+				DC87C380AA454A4FC49A6E631E2BB894 /* PBXTargetDependency */,
 			);
 			name = PagingScrollView;
 			productName = PagingScrollView;
@@ -553,7 +566,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		433EFAD19B79F5D1C49960E4F3BAAA94 /* Resources */ = {
+		25664743E2632C50EA513B6960520588 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -595,17 +608,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC323DDA645BAEE02806198AE156D17F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D4795D074427A4B1DCC6F9EDA268A00 /* PageScrollView.m in Sources */,
-				3F35E2851CBE679F234B89C2B6C3CC43 /* PageScrollViewConfig.m in Sources */,
-				67F4A69C7F67430A5618C5C6759DEB2F /* PageView.m in Sources */,
-				88ADF2E2BE720968AA4D5B95BA4A3CE7 /* PagingScrollView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B3519C17A571958CBFE67CF1982F036B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -619,6 +621,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				309529895D6497D8DC301677898BA425 /* Pods-PagingScrollView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5027CDE07171405462C54C2113C13E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964A9056BB0ACF0C82ECE88841CDDA8D /* PageScrollView.m in Sources */,
+				FDD474E2CA4129AD8742266C821D21CE /* PageScrollViewConfig.m in Sources */,
+				FAF240F38308C2CACFBD786766A12FFF /* PageView.m in Sources */,
+				539966EDCD136C0510E98E8FDAC1593A /* PagingScrollView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,11 +656,11 @@
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
 			targetProxy = 3188ED3CA0124FC4B8C31739FB6BAAD3 /* PBXContainerItemProxy */;
 		};
-		BE4352F86A6CDDC93A073E75CC305738 /* PBXTargetDependency */ = {
+		DC87C380AA454A4FC49A6E631E2BB894 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = DD59F9C699BFBD3D31A5A6A67C509DD6 /* PBXContainerItemProxy */;
+			targetProxy = 745C5FEAC884592BFF91FF853148F0FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -753,38 +766,6 @@
 			};
 			name = Release;
 		};
-		10C824FA8DEE9C05957ABBA5F2220B2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D1CFD70D77C83A2C2C7939AD27E9520 /* PagingScrollView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PagingScrollView/PagingScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PagingScrollView/PagingScrollView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PagingScrollView/PagingScrollView.modulemap";
-				PRODUCT_MODULE_NAME = PagingScrollView;
-				PRODUCT_NAME = PagingScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		527D6664223B803E9C7307F58E3CA12A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
@@ -816,6 +797,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		73C65886EC9D4AC04D654D2CAF1456F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C645049DF94A69B1DBF260137E23D7 /* PagingScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PagingScrollView/PagingScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingScrollView/PagingScrollView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PagingScrollView/PagingScrollView.modulemap";
+				PRODUCT_MODULE_NAME = PagingScrollView;
+				PRODUCT_NAME = PagingScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8C65F7CC9708EE0690525E4800598E8E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -972,6 +984,38 @@
 			};
 			name = Debug;
 		};
+		A879559046A22C8B8D773CF383E53008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C645049DF94A69B1DBF260137E23D7 /* PagingScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PagingScrollView/PagingScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingScrollView/PagingScrollView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PagingScrollView/PagingScrollView.modulemap";
+				PRODUCT_MODULE_NAME = PagingScrollView;
+				PRODUCT_NAME = PagingScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C4B9DB51EFE3F8D55EB20ED35FE4EC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 47CBBC6806921BA8CD083A416EE063D3 /* Pods-PagingScrollView_Example.debug.xcconfig */;
@@ -1005,37 +1049,6 @@
 			};
 			name = Debug;
 		};
-		CF756D61279B293B54EDC3E15E8A21E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D1CFD70D77C83A2C2C7939AD27E9520 /* PagingScrollView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PagingScrollView/PagingScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PagingScrollView/PagingScrollView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PagingScrollView/PagingScrollView.modulemap";
-				PRODUCT_MODULE_NAME = PagingScrollView;
-				PRODUCT_NAME = PagingScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1057,20 +1070,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58725870D1959A65E48D3E7CD114C21B /* Build configuration list for PBXNativeTarget "PagingScrollView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF756D61279B293B54EDC3E15E8A21E2 /* Debug */,
-				10C824FA8DEE9C05957ABBA5F2220B2A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C65F7CC9708EE0690525E4800598E8E /* Debug */,
 				527D6664223B803E9C7307F58E3CA12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19FEA68EB9B030B33A8C2FF60C79749 /* Build configuration list for PBXNativeTarget "PagingScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C65886EC9D4AC04D654D2CAF1456F6 /* Debug */,
+				A879559046A22C8B8D773CF383E53008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

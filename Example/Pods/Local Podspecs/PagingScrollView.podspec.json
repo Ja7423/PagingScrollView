@@ -2,7 +2,6 @@
   "name": "PagingScrollView",
   "version": "0.1.0",
   "summary": "a simple scrollView that can support scroll loop",
-  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Ja7423/PagingScrollView",
   "license": {
     "type": "MIT",

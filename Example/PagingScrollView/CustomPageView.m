@@ -33,6 +33,8 @@
     [self.imageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.bottom.left.right.equalTo(self);
     }];
+    
+    NSLog(@"class: %@", self.class);
 }
 
 - (void)loadImageAtIndex:(NSInteger)index
