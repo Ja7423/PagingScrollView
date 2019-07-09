@@ -206,9 +206,7 @@
 - (void)removeSubviewsFromScrollView
 {
     for (UIView *view in self.scrollView.subviews) {
-        if ([view isKindOfClass:[PageView class]]) {
-            [view removeFromSuperview];
-        }
+        [view removeFromSuperview];
     }
 }
 
