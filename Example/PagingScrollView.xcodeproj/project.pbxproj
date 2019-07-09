@@ -67,7 +67,7 @@
 		A94C103D22C5B14C0026B068 /* CustomPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPageView.h; sourceTree = "<group>"; };
 		A94C103E22C5B14C0026B068 /* CustomPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPageView.m; sourceTree = "<group>"; };
 		B2A547BB3ACF0548B7AAE018 /* Pods_PagingScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagingScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D53AC1747D8619D030C87A5A /* PagingScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PagingScrollView.podspec; path = ../PagingScrollView.podspec; sourceTree = "<group>"; };
+		D53AC1747D8619D030C87A5A /* PagingScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PagingScrollView.podspec; path = ../PagingScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D78D75BE3F1C3E5CA9597A0F /* Pods-PagingScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagingScrollView_Example.release.xcconfig"; path = "Target Support Files/Pods-PagingScrollView_Example/Pods-PagingScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F7F0008DBEFBD5BC4E974999 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
