@@ -294,7 +294,7 @@
                                                 selector:@selector(autoScrollHandler:)
                                                 userInfo:nil
                                                  repeats:YES];
-    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSDefaultRunLoopMode];
+    [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
 }
 
 - (void)removeTimer
