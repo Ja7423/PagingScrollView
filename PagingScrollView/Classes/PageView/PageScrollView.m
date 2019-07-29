@@ -251,7 +251,11 @@
 
 - (NSInteger)currentIndex
 {
-    return self.contentOffsetX / self.scrollView.frame.size.width;
+    NSInteger index = self.contentOffsetX / self.scrollView.frame.size.width;
+    if (self.scrollConfig.loopEnable) {
+        index = (index) ? index - 1 : index;
+    }
+    return index;
 }
 
 

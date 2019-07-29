@@ -27,8 +27,11 @@
     
     self.testImages = @[@"0", @"1", @"3"].mutableCopy;
     
+    PageScrollViewConfig *config = [PageScrollViewConfig new];
+    config.autoScrollEnable = NO;
+    config.loopEnable = YES;
     
-    self.pageScrollView = [[PageScrollView alloc] initWithConfig:[PageScrollViewConfig new]];
+    self.pageScrollView = [[PageScrollView alloc] initWithConfig:config];
     self.pageScrollView.frame = CGRectMake(0, 100, self.view.frame.size.width, 150);
     self.pageScrollView.dataSource = self;
     self.pageScrollView.delegate = self;
