@@ -25,7 +25,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.testImages = @[@"0", @"1", @"3"].mutableCopy;
+//    self.testImages = @[@"0", @"1", @"3"].mutableCopy;
+    self.testImages = @[@"0"].mutableCopy;
     
     PageScrollViewConfig *config = [PageScrollViewConfig new];
     config.autoScrollEnable = NO;
