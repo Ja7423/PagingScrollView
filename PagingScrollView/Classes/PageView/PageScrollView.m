@@ -85,6 +85,12 @@
 - (void)setDataCount:(NSInteger)dataCount
 {
     _dataCount = dataCount;
+    
+    if (!dataCount) {
+        self.loopCount = 0;
+        return;
+    }
+    
     if (_dataCount < 2) {
         self.scrollConfig.loopEnable = NO;
     }
