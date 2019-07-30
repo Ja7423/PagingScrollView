@@ -29,7 +29,7 @@
 //    self.testImages = @[@"0"].mutableCopy;
     
     PageScrollViewConfig *config = [PageScrollViewConfig new];
-    config.autoScrollEnable = NO;
+    config.autoScrollEnable = YES;
     config.loopEnable = YES;
     
     self.pageScrollView = [[PageScrollView alloc] initWithConfig:config];

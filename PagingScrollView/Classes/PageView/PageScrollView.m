@@ -21,6 +21,8 @@
 
 @property (nonatomic, assign) NSInteger loopCount;
 
+@property (nonatomic, assign) NSInteger _pageIndex;
+
 @property (nonatomic, assign) BOOL needUpdateScrollView;
 
 @end
@@ -206,7 +208,7 @@
     }
     
     self.scrollView.contentSize = CGSizeMake((pageWidth + spacing) * self.loopCount, height);
-    [self scrollToPageInContent:self.currentPageIndex animated:NO];
+    [self scrollToPageInContent:self._pageIndex animated:NO];
     
     self.needUpdateScrollView = NO;
     
@@ -261,8 +263,7 @@
 
 - (NSInteger)currentIndex
 {
-    NSInteger index = self.contentOffsetX / self.scrollView.frame.size.width;
-    return [self originIndex:index];
+    return self.contentOffsetX / self.scrollView.frame.size.width;
 }
 
 
@@ -285,7 +286,8 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    self.currentPageIndex = [self currentIndex];
+    self._pageIndex = [self currentIndex];
+    self.currentPageIndex = [self originIndex:self._pageIndex];
     
     [self checkOffset];
 }
@@ -332,7 +334,7 @@
 
 - (void)autoScrollHandler:(NSTimer *)timer
 {
-    [self scrollToPageInContent:self.currentPageIndex + 1 animated:YES];
+    [self scrollToPageInContent:self._pageIndex + 1 animated:YES];
 }
 
 #pragma mark - PageViewDelegate
