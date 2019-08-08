@@ -15,8 +15,6 @@
 
 @property (nonatomic, assign) CGFloat contentOffsetX;
 
-@property (nonatomic, strong) NSMutableArray *loopSubViews;
-
 @property (nonatomic, strong) NSTimer *timer;
 
 @property (nonatomic, assign) NSInteger loopCount;
@@ -65,6 +63,7 @@
     if (self) {
         self.scrollConfig = scrollConfig;
         self.needUpdateScrollView = YES;
+        self.clipsToBounds = YES;
         [self createScrollView];
     }
     return self;
@@ -75,11 +74,6 @@
     [super layoutSubviews];
     
     [self addSubViewAtScrollView];
-}
-
-- (void)defaultSetting
-{
-    self.currentPageIndex = 0;
 }
 
 #pragma mark - Data
@@ -176,8 +170,6 @@
         make.left.equalTo(self).offset(self.scrollConfig.inset);
         make.right.equalTo(self).offset(-self.scrollConfig.inset);
     }];
-    
-    self.loopSubViews = [NSMutableArray array];
 }
 
 - (void)addSubViewAtScrollView
