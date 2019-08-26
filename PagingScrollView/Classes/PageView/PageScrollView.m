@@ -71,9 +71,14 @@
 
 - (void)layoutSubviews
 {
+    CGRect oldFrame = self.scrollView.frame;
     [super layoutSubviews];
     
-    [self addSubViewAtScrollView];
+    if (self.needUpdateScrollView) {
+        [self addSubViewAtScrollView];
+    } else if (oldFrame.size.width != self.scrollView.frame.size.width) {
+        [self scrollToPageInContent:self._pageIndex animated:NO];
+    }
 }
 
 #pragma mark - Data

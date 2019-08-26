@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PagingScrollView'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'a simple scrollView that can support scroll loop'
 
 # This description is used to generate tags and improve search results.
