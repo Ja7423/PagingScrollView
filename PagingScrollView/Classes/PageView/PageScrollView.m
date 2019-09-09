@@ -252,7 +252,8 @@
     if (page >= self.loopCount) return;
     if (self.scrollConfig.loopEnable && page == 0) page = 1;
     
-    CGPoint offset = CGPointMake([self xPositionFromIndex:page], 0);
+    CGFloat x = [self xPositionFromIndex:page] - [self halfSpacing];
+    CGPoint offset = CGPointMake(x, 0);
     [self.scrollView setContentOffset:offset animated:animated];
 }
 
