@@ -1,13 +1,13 @@
 PODS:
   - Masonry (1.1.0)
-  - PagingScrollView (0.1.7):
+  - PagingScrollView (0.2.0):
     - Masonry (~> 1.1.0)
 
 DEPENDENCIES:
   - PagingScrollView (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Masonry
 
 EXTERNAL SOURCES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  PagingScrollView: 52e806dd62a42d3407b9bd180467bfa0f29dacdd
+  PagingScrollView: 5e94551ff416dd0d8d5becb6eb52d72bf590f863
 
 PODFILE CHECKSUM: 0ce12148a11d34f464afe9da342a46cda811e738
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.0.beta.2
