@@ -21,6 +21,9 @@ NS_ASSUME_NONNULL_BEGIN
 // 每個cell停留時間， default is 3.0
 @property (nonatomic, assign) NSTimeInterval loopDuration;
 
+// minimum scale， default is 0.8
+@property (nonatomic, assign) NSTimeInterval minScale;
+
 // 是否自動滑動， default is YES
 @property (nonatomic, assign) BOOL autoScrollEnable;
 

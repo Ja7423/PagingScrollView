@@ -26,6 +26,7 @@
     self.loopDuration = 3.0;
     self.inset = 20.0;
     self.spacing = 8.0;
+    self.minScale = 0.8;
 }
 
 @end

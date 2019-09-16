@@ -64,6 +64,7 @@
         self.scrollConfig = scrollConfig;
         self.needUpdateScrollView = YES;
         self.clipsToBounds = YES;
+        self.animationType = PageScrollViewTransformTypeNormal;
         [self createScrollView];
     }
     return self;
@@ -129,6 +130,18 @@
     }
     
     return self.currentPageIndex;
+}
+
+- (CGPoint)contentCenter
+{
+    CGFloat x = self.scrollView.contentOffset.x + (self.scrollView.bounds.size.width / 2);
+    CGFloat y = self.scrollView.bounds.size.height / 2;
+    return CGPointMake(x, y);
+}
+
+- (CGFloat)scaleFromPoint:(CGPoint)point
+{
+    return 0;
 }
 
 #pragma mark - PageView config
@@ -209,6 +222,8 @@
     
     self.scrollView.contentSize = CGSizeMake((pageWidth + spacing) * self.loopCount, height);
     [self scrollToPageInContent:self._pageIndex animated:NO];
+    
+    [self startTransform];
     
     self.needUpdateScrollView = NO;
     
@@ -291,6 +306,44 @@
     self.currentPageIndex = [self originIndex:self._pageIndex];
     
     [self checkOffset];
+    [self startTransform];
+}
+
+#pragma mark - Transform
+- (void)startTransform
+{
+    if (self.animationType == PageScrollViewTransformTypeNormal) return;
+    
+    NSArray *visibleViews = [self visibleViews];
+    CGFloat centerX = [self contentCenter].x;
+    CGFloat scaleRatio = 1 - self.scrollConfig.minScale;
+    for (UIView *visibleView in visibleViews) {
+        CGFloat xDistance = visibleView.center.x - centerX;
+        CGFloat scale = 1.0 - fabs((xDistance / self.scrollView.bounds.size.width) * scaleRatio);
+        visibleView.layer.transform = CATransform3DMakeScale(1.0, scale, 1.0);
+    }
+}
+
+- (NSArray *)visibleViews
+{
+    NSMutableArray *views = [NSMutableArray array];
+    for (UIView *subView in self.scrollView.subviews) {
+        CGFloat maxX = CGRectGetMaxX(subView.frame);
+        CGFloat maxY = CGRectGetMaxY(subView.frame);
+        CGFloat minX = CGRectGetMinX(subView.frame);
+        CGFloat minY = CGRectGetMinY(subView.frame);
+        CGPoint maxPoint = [self.scrollView convertPoint:CGPointMake(maxX, maxY) toView:self];
+        CGPoint minPoint = [self.scrollView convertPoint:CGPointMake(minX, minY) toView:self];
+
+        if ((minPoint.x < self.frame.size.width && minPoint.x > 0) ||
+            (maxPoint.x < self.frame.size.width && maxPoint.x > 0))
+        {
+            [views addObject:subView];
+        }
+    }
+    
+//    NSLog(@"visible views count(%ld)", (long)views.count);
+    return views.copy;
 }
 
 #pragma mark - Timer

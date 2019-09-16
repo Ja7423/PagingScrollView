@@ -31,11 +31,14 @@
     PageScrollViewConfig *config = [PageScrollViewConfig new];
     config.autoScrollEnable = YES;
     config.loopEnable = YES;
+    config.inset = 15;
+    config.spacing = 10;
     
     self.pageScrollView = [[PageScrollView alloc] initWithConfig:config];
     self.pageScrollView.frame = CGRectMake(0, 100, self.view.frame.size.width, 150);
     self.pageScrollView.dataSource = self;
     self.pageScrollView.delegate = self;
+    self.pageScrollView.animationType = PageScrollViewTransformTypeLinear;
     [self.view addSubview:self.pageScrollView];
     
     self.pageScrollView.dataCount = self.testImages.count;

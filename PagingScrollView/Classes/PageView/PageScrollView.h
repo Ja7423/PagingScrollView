@@ -12,6 +12,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSUInteger, PageScrollViewTransformType) {
+    PageScrollViewTransformTypeNormal,
+    PageScrollViewTransformTypeLinear,
+};
+
 @protocol PageScrollViewDataSource <NSObject>
 
 - (PageView *)pageViewAtIndex:(NSInteger)index;
@@ -31,16 +36,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id<PageScrollViewDelegate> delegate;
 
-// 原始資料筆數
+// data
 @property (nonatomic, assign) NSInteger dataCount;
 
 // page index
 @property (nonatomic, assign) NSInteger currentPageIndex;
 
-// 設定
+// scrollView setting config
 @property (nonatomic, strong) PageScrollViewConfig *scrollConfig;
 
-
+// transform animation type
+@property (nonatomic, assign) PageScrollViewTransformType animationType;
 
 - (instancetype)initWithConfig:(PageScrollViewConfig *)scrollConfig;
 
