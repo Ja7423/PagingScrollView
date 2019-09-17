@@ -59,15 +59,39 @@
 
 - (instancetype)initWithConfig:(PageScrollViewConfig *)scrollConfig
 {
-    self = [super init];
+    self = [super initWithFrame:CGRectZero];
     if (self) {
+        [self initialize];
         self.scrollConfig = scrollConfig;
-        self.needUpdateScrollView = YES;
-        self.clipsToBounds = YES;
-        self.animationType = PageScrollViewTransformTypeNormal;
-        [self createScrollView];
     }
     return self;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        [self initialize];
+    }
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self initialize];
+    }
+    return self;
+}
+
+- (void)initialize
+{
+    self.needUpdateScrollView = YES;
+    self.clipsToBounds = YES;
+    self.animationType = PageScrollViewTransformTypeNormal;
+    self.scrollConfig = [PageScrollViewConfig new];
+    [self createScrollView];
 }
 
 - (void)layoutSubviews
