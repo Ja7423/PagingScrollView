@@ -145,13 +145,13 @@
 
 - (NSInteger)originIndexOfPageView:(PageView *)pageView
 {
-    for (NSInteger i = 0; i < self.scrollView.subviews.count; i++) {
-        UIView *view = self.scrollView.subviews[i];
-        if ([view isKindOfClass:[pageView class]] &&
-            pageView == view) {
-            return [self originIndex:i];
-        }
-    }
+//    for (NSInteger i = 0; i < self.scrollView.subviews.count; i++) {
+//        UIView *view = self.scrollView.subviews[i];
+//        if ([view isKindOfClass:[pageView class]] &&
+//            pageView == view) {
+//            return [self originIndex:i];
+//        }
+//    }
     
     return self.currentPageIndex;
 }
@@ -244,12 +244,10 @@
         }
     }
     
+    self.needUpdateScrollView = NO;
+    
     self.scrollView.contentSize = CGSizeMake((pageWidth + spacing) * self.loopCount, height);
     [self scrollToPageInContent:self._pageIndex animated:NO];
-    
-    [self startTransform];
-    
-    self.needUpdateScrollView = NO;
     
     [self addAutoScrollTimer];
 }
@@ -338,14 +336,16 @@
 {
     if (self.animationType == PageScrollViewTransformTypeNormal) return;
     
-    NSArray *visibleViews = [self visibleViews];
-    CGFloat centerX = [self contentCenter].x;
-    CGFloat scaleRatio = 1 - self.scrollConfig.minScale;
-    for (UIView *visibleView in visibleViews) {
-        CGFloat xDistance = visibleView.center.x - centerX;
-        CGFloat scale = 1.0 - fabs((xDistance / self.scrollView.bounds.size.width) * scaleRatio);
-        visibleView.layer.transform = CATransform3DMakeScale(1.0, scale, 1.0);
-    }
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NSArray *visibleViews = [self visibleViews];
+        CGFloat centerX = [self contentCenter].x;
+        CGFloat scaleRatio = 1 - self.scrollConfig.minScale;
+        for (UIView *visibleView in visibleViews) {
+            CGFloat xDistance = visibleView.center.x - centerX;
+            CGFloat scale = 1.0 - fabs((xDistance / self.scrollView.bounds.size.width) * scaleRatio);
+            visibleView.layer.transform = CATransform3DMakeScale(1.0, scale, 1.0);
+        }
+    });
 }
 
 - (NSArray *)visibleViews
@@ -367,7 +367,7 @@
     }
     
 //    NSLog(@"visible views count(%ld)", (long)views.count);
-    return views.copy;
+    return views;
 }
 
 #pragma mark - Timer

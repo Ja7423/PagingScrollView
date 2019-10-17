@@ -34,6 +34,8 @@
         make.top.bottom.left.right.equalTo(self);
     }];
     
+    self.backgroundColor = [UIColor redColor];
+    
     NSLog(@"class: %@", self.class);
 }
 

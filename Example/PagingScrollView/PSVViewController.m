@@ -29,7 +29,7 @@
 //    self.testImages = @[@"0"].mutableCopy;
     
     PageScrollViewConfig *config = [PageScrollViewConfig new];
-    config.autoScrollEnable = YES;
+    config.autoScrollEnable = NO;
     config.loopEnable = YES;
     config.inset = 15;
     config.spacing = 10;
