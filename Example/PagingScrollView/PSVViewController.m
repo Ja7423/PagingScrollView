@@ -31,8 +31,8 @@
     PageScrollViewConfig *config = [PageScrollViewConfig new];
     config.autoScrollEnable = NO;
     config.loopEnable = YES;
-    config.inset = 15;
-    config.spacing = 10;
+    config.inset = 5;
+    config.spacing = 5;
     
     self.pageScrollView = [[PageScrollView alloc] initWithConfig:config];
     self.pageScrollView.frame = CGRectMake(0, 100, self.view.frame.size.width, 150);

@@ -61,7 +61,6 @@
 {
     self = [super initWithFrame:CGRectZero];
     if (self) {
-        [self initialize];
         self.scrollConfig = scrollConfig;
     }
     return self;
@@ -71,7 +70,7 @@
 {
     self = [super initWithCoder:coder];
     if (self) {
-        [self initialize];
+        self.scrollConfig = [PageScrollViewConfig new];
     }
     return self;
 }
@@ -80,9 +79,15 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        [self initialize];
+        self.scrollConfig = [PageScrollViewConfig new];
     }
     return self;
+}
+
+- (void)setScrollConfig:(PageScrollViewConfig *)scrollConfig
+{
+    _scrollConfig = scrollConfig;
+    [self initialize];
 }
 
 - (void)initialize
@@ -90,7 +95,6 @@
     self.needUpdateScrollView = YES;
     self.clipsToBounds = YES;
     self.animationType = PageScrollViewTransformTypeNormal;
-    self.scrollConfig = [PageScrollViewConfig new];
     [self createScrollView];
 }
 
@@ -201,6 +205,11 @@
 
 - (void)createScrollView
 {
+    if (self.scrollView) {
+        [self.scrollView removeFromSuperview];
+        self.scrollView = nil;
+    }
+    
     self.scrollView = [[UIScrollView alloc] init];
     self.scrollView.delegate = self;
     self.scrollView.clipsToBounds = NO;
