@@ -136,9 +136,9 @@
     
     NSInteger selectIdx = index;
 
-    if (selectIdx == 0) {
+    if (selectIdx <= 0) {
         selectIdx = self.dataCount - 1;
-    } else if (selectIdx == self.loopCount - 1) {
+    } else if (selectIdx >= self.loopCount - 1) {
         selectIdx = 0;
     } else {
         selectIdx -= 1;
