@@ -23,6 +23,8 @@
 
 @property (nonatomic, assign) BOOL needUpdateScrollView;
 
+@property (nonatomic, assign) BOOL dragging;
+
 @end
 
 @implementation PageScrollView
@@ -92,6 +94,7 @@
 
 - (void)initialize
 {
+    self.dragging = NO;
     self.needUpdateScrollView = YES;
     self.clipsToBounds = YES;
     self.animationType = PageScrollViewTransformTypeNormal;
@@ -318,23 +321,29 @@
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
 {
+    self.dragging = YES;
     [self removeTimer];
 }
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
 {
+    self.dragging = NO;
     [self addAutoScrollTimer];
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
+    self.dragging = NO;
     [self addAutoScrollTimer];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     self._pageIndex = [self currentIndex];
-    self.currentPageIndex = [self originIndex:self._pageIndex];
+    
+    if (self.dragging) {
+        self.currentPageIndex = [self originIndex:self._pageIndex];
+    }
     
     [self checkOffset];
     [self startTransform];
