@@ -1,6 +1,6 @@
 {
   "name": "PagingScrollView",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "summary": "a simple scrollView that can support scroll loop",
   "homepage": "https://github.com/Ja7423/PagingScrollView",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/Ja7423/PagingScrollView.git",
-    "tag": "0.2.3"
+    "tag": "0.2.4"
   },
   "platforms": {
     "ios": "9.0"

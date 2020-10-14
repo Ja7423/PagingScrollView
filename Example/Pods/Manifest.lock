@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - PagingScrollView (0.2.3):
+  - PagingScrollView (0.2.4):
     - Masonry (~> 1.1.0)
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  PagingScrollView: 237fff61ae7fe576ac4cfd5dd596ee54ffae8c46
+  PagingScrollView: 6d21aa7eb821381213519e15355e2139667c6a81
 
 PODFILE CHECKSUM: 0ce12148a11d34f464afe9da342a46cda811e738
 
