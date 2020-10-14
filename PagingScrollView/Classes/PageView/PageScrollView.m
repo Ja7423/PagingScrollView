@@ -341,7 +341,7 @@
 {
     self._pageIndex = [self currentIndex];
     
-    if (self.dragging) {
+    if (!self.dragging) {
         self.currentPageIndex = [self originIndex:self._pageIndex];
     }
     
